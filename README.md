@@ -26,3 +26,9 @@ In your `tsconfig.json`:
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
 ```
+
+---
+
+> [sqrtthree.com](http://sqrtthree.com/) &nbsp;&middot;&nbsp;
+> GitHub [@sqrthree](https://github.com/sqrthree) &nbsp;&middot;&nbsp;
+> Twitter [@sqrtthree](https://twitter.com/sqrtthree)
