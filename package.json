@@ -1,0 +1,32 @@
+{
+  "name": "@sqrtthree/tsconfig",
+  "version": "0.1.0",
+  "description": "Shared TypeScript config for my projects.",
+  "main": "tsconfig.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrthree/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "author": "sqrtthree <imsqrtthree@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sqrthree/tsconfig/issues"
+  },
+  "homepage": "https://github.com/sqrthree/tsconfig#readme",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "tsconfig.json"
+  ]
+}
