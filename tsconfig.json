@@ -7,7 +7,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": true,
     "stripInternal": true,
     "noEmitOnError": true,
