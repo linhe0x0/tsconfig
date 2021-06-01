@@ -1,33 +1,47 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     // Only enable it after the issue https://github.com/Microsoft/TypeScript/issues/29172 is be resolved.
     // "rootDir": "./src",
     // "outDir": "./dist",
-    "target": "es2018", // Node.js 10
+
+    // Project Options
+    "lib": ["ES2020"],
+    "target": "es2020", // Node.js 14
     "module": "commonjs",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "sourceMap": false,
     "declaration": true,
-    "stripInternal": true,
-    "noEmitOnError": true,
-    "skipLibCheck": true,
     "removeComments": true,
+    "sourceMap": false,
+
+    // Strict Checks
     "strict": true,
     "noImplicitAny": false,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
+    "strictBindCallApply": true,
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
+
+    // Module Resolution
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    // Linter Checks
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
+
+    // Advanced
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "pretty": true,
-    "newLine": "lf"
+    "resolveJsonModule": true,
+    "stripInternal": true,
+    "noEmitOnError": true,
+    "newLine": "lf",
+
+    // Command Line
+    "pretty": true
   }
   // "include": ["src/**/*"],
   // "exclude": ["node_modules", "**/*.spec.ts"]
