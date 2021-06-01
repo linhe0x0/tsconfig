@@ -11,7 +11,7 @@
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
-    "sourceMap": false,
+    "sourceMap": true,
 
     // Strict Checks
     "strict": true,
