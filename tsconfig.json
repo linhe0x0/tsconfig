@@ -10,6 +10,7 @@
     "target": "es2020", // Node.js 14
     "module": "commonjs",
     "declaration": true,
+    "isolatedModules": true,
     "removeComments": true,
     "sourceMap": true,
 
