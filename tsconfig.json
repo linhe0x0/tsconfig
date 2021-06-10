@@ -12,7 +12,6 @@
     "declaration": true,
     "isolatedModules": true,
     "removeComments": true,
-    "sourceMap": true,
 
     // Strict Checks
     "strict": true,
