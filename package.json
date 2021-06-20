@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Shared TypeScript config for my projects.",
   "main": "tsconfig.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sqrthree/tsconfig.git"
@@ -28,5 +25,8 @@
   },
   "files": [
     "tsconfig.json"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
