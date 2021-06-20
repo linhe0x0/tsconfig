@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/@sqrtthree/tsconfig)](https://www.npmjs.com/package/@sqrtthree/tsconfig)
+
 # tsconfig
 
 Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#configuration-inheritance-with-extends) for my projects.
