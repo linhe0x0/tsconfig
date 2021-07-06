@@ -28,7 +28,7 @@ In your `tsconfig.json`:
     "outDir": "./dist"
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "exclude": ["node_modules"]
 }
 ```
 
