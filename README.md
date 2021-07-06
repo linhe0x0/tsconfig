@@ -7,10 +7,13 @@ Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig
 ## Install
 
 ```sh
-$ yar add --dev @sqrtthree/tsconfig
+yarn add --dev @sqrtthree/tsconfig
+```
 
-# Or use npm:
-$ npm install --save-dev @sqrtthree/tsconfig
+Or use npm:
+
+```sh
+npm install --save-dev @sqrtthree/tsconfig
 ```
 
 ## Usage
