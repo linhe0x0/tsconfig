@@ -21,6 +21,7 @@
     "strictBindCallApply": true,
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
+    "exactOptionalPropertyTypes": true,
 
     // Module Resolution
     "moduleResolution": "node",
