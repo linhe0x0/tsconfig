@@ -5,15 +5,7 @@
     // "rootDir": "./src",
     // "outDir": "./dist",
 
-    // Project Options
-    "lib": ["ES2020"],
-    "target": "es2020", // Node.js 14
-    "module": "commonjs",
-    "declaration": true,
-    "isolatedModules": true,
-    "removeComments": true,
-
-    // Strict Checks
+    // Type Checking
     "strict": true,
     "noImplicitAny": false,
     "strictNullChecks": true,
@@ -22,27 +14,37 @@
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
     "exactOptionalPropertyTypes": true,
-
-    // Module Resolution
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-
-    // Linter Checks
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
 
-    // Advanced
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    // Modules
+    "module": "commonjs",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
+
+    // Emit
+    "declaration": true,
+    "removeComments": true,
     "stripInternal": true,
     "noEmitOnError": true,
     "newLine": "lf",
 
-    // Command Line
-    "pretty": true
+    // Interop Constraints
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Language and Environment
+    "lib": ["ES2020"],
+    "target": "es2020", // Node.js 14
+
+    // Output Formatting
+    "pretty": true,
+
+    // Completeness
+    "skipLibCheck": true
   }
   // "include": ["src/**/*"],
   // "exclude": ["node_modules"]
