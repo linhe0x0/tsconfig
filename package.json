@@ -1,6 +1,6 @@
 {
   "name": "@sqrtthree/tsconfig",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Shared TypeScript config for my projects.",
   "main": "tsconfig.json",
   "repository": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/sqrthree/tsconfig#readme",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "files": [
     "tsconfig.json"
