@@ -22,7 +22,7 @@
 
     // Modules
     "module": "nodenext",
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "resolveJsonModule": true,
 
     // Emit
