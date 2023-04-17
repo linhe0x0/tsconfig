@@ -2,7 +2,7 @@
 
 # tsconfig
 
-Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#configuration-inheritance-with-extends) for my projects.
+Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#configuration-inheritance-with-extends) for my projects. The configuration is now distributed to be compatible with [TypeScript 5.0](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/) or newer.
 
 ## Install
 
@@ -18,7 +18,7 @@ npm install --save-dev @sqrtthree/tsconfig
 
 ## Usage
 
-In your `tsconfig.json`:
+For example in your `tsconfig.json`:
 
 ```json
 {
