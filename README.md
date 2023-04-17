@@ -2,7 +2,7 @@
 
 # tsconfig
 
-Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#configuration-inheritance-with-extends) for my projects. The configuration is now distributed to be compatible with [TypeScript 5.0](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/) or newer.
+Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#configuration-inheritance-with-extends) for my Node.js projects. The configuration is now distributed to be compatible with [TypeScript 5.0](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/) or newer.
 
 ## Install
 
