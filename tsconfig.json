@@ -27,7 +27,7 @@
 
     // Emit
     "declaration": true,
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "removeComments": true,
     "stripInternal": true,
     "noEmitOnError": true,
