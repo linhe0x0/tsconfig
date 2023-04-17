@@ -1,6 +1,6 @@
 {
   "name": "@sqrtthree/tsconfig",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Shared TypeScript config for my projects.",
   "main": "tsconfig.json",
   "repository": {
